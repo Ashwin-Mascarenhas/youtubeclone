@@ -1,0 +1,603 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link type="images/png" rel="icon" href="images/icons8-youtube.png">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v6.0.0/css/all.css"
+    integrity="sha384-3B6NwesSXE7YJlcLI9RpRqGf2p/EgVH8BgoKTaUrmKNDkHPStTQ3EyoYjCGXaOTS" crossorigin="anonymous" />
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="css/single.css">
+  <title>Youtube </title>
+</head>
+
+<body>
+  <!--    header      -->
+  <header class="header">
+    <div class="header_container">
+      <div class="none"> </div>
+      <div class="search">
+        <input type="text" placeholder="Search">
+        <i class="fa-solid fa-magnifying-glass"></i>
+      </div>
+
+
+      <div class="user">
+        <div class="icon">
+          <i class="fa-solid fa-video"></i>
+          <i class="fa-solid fa-grip"></i>
+          <i class="fa-solid fa-bell"></i>
+        </div>
+
+        <div class="img">
+          <img src="images/ashwinprofile.png" alt="">
+        </div>
+      </div>
+
+      <div class="toggle">
+        <i class="fa-solid fa-bars" id="header-toggle"></i>
+      </div>
+    </div>
+  </header>
+  <!--    header      -->
+
+  <!--    nav      -->
+  <section class="nav" id="navbar">
+    <nav class="nav_container">
+      <div>
+        <a href="#" class="nav_link nav_logo ">
+          <i class="fa-solid fa-bars nav_icon"></i>
+          <span class="logo_name">
+            <i class="fab fa-youtube"></i>
+            Youtube
+          </span>
+        </a>
+
+        <div class="nav_list">
+          <div class="nav_items navtop">
+            <a href="index.html" class="nav_link navtop active">
+              <i class="fa fa-house nav_icon"></i>
+              <span class="nav_name">Home</span>
+            </a>
+            <a href="#" class="nav_link navtop">
+              <i class="fa fa-compass nav_icon"></i>
+              <span class="nav_name">Explore</span>
+            </a>
+            <a href="#" class="nav_link navtop">
+              <i class="fa-brands fa-tiktok nav_icon"></i>
+              <span class="nav_name">Short Video</span>
+            </a>
+            <a href="#" class="nav_link navtop">
+              <i class="fa-solid fa-users nav_icon"></i>
+              <span class="nav_name">Channel</span>
+            </a>
+            <a href="#" class="nav_link navtop">
+              <i class="fa-solid fa-video nav_icon"></i>
+              <span class="nav_name">Library</span>
+            </a>
+            <a href="#" class="nav_link navtop">
+              <i class="fa-solid fa-clock-rotate-left nav_icon"></i>
+              <span class="nav_name">History</span>
+            </a>
+            <a href="#" class="nav_link navtop">
+              <i class="fa-solid fa-thumbs-up nav_icon"></i>
+              <span class="nav_name">Like</span>
+            </a>
+
+            <div class="nav_dropdown">
+              <a href="#" class="nav_link">
+                <i class="fa-solid fa-chevron-down nav_icon"></i>
+                <span class="nav_name">Show More</span>
+              </a>
+
+              <div class="nav_dropdown-collapse">
+                <div class="nav_dropdown-content">
+                  <a href="#" class="nav_dropdown-item">Harry Styles</a>
+                  <a href="#" class="nav_dropdown-item">Charlie Puth</a>
+                  <a href="#" class="nav_dropdown-item">Ed Sheeran</a>
+                </div>
+              </div>
+            </div>
+
+            <a href="#" class="nav_link">
+              <i class="fa-solid fa-comment nav_icon"></i>
+              <span class="nav_name">Messages</span>
+            </a>
+          </div>
+
+          <div class="nav_items subscribe-container">
+            <h3 class="nav_subititle">SUBSCRIPTIONS</h3>
+
+            <a href="#" class="nav_link">
+              <img class="subscribe"
+                src="images/s2g.jpg"
+                alt="">
+              <span class="nav_name">S2G</span>
+            </a>
+            <a href="#" class="nav_link">
+              <img class="subscribe"
+                src="images/gd.jpg" />
+              <span class="nav_name">Green Day</span>
+            </a>
+            <a href="#" class="nav_link">
+              <img class="subscribe"
+                src="images/shwn.jpg" />
+              <span class="nav_name">SHWN</span>
+            </a>
+            <a href="#" class="nav_link">
+              <img class="subscribe"
+                src="images/mu.jpg" />
+              <span class="nav_name">Manchester United</span>
+            </a>
+
+
+            <div class="nav_dropdown">
+              <a href="#" class="nav_link">
+                <i class="fa-solid fa-chevron-down nav_icon"></i>
+                <span class="nav_name">Show 3 More</span>
+              </a>
+
+              <div class="nav_dropdown-collapse nav_dropdown-second">
+                <div class="nav_dropdown-content">
+                  <a href="#" class="nav_dropdown-items">
+                    <img class="subscribe"
+                      src="images/cp.jpg" />
+                    <span class="nav_name">Coldplay</span>
+                  </a>
+                  <a href="#" class="nav_dropdown-items">
+                    <img class="subscribe"
+                      src="images/lp.jpg" />
+                    <span class="nav_name">Linkin Park</span>
+                  </a>
+                  <a href="#" class="nav_dropdown-items">
+                    <img class="subscribe"
+                      src="images/bs.jpg" />
+                    <span class="nav_name">Beta Squad</span>
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </nav>
+  </section>
+  <!--    nav      -->
+
+
+  <main class="single_pages">
+    <section class="video_items flex">
+      <div class="left">
+        <div class="left_content">
+          <video src="video/video1.mp4" autoplay controls> </video>
+
+
+          <!--        video tages            -->
+          <div class="tag">
+            <label class="tags"> #NeverGonnaGiveYouUp #RickAstley #WheneverYouNeedSomebody </label>
+            <p>Rick Astley - Never Gonna Give You Up (Official Music Video)</p>
+          </div>
+          <!--        video tages            -->
+
+          <!--        total viwer            -->
+          <div class="view flex2 border_bottom">
+            <div class="view-text">
+              <span>1,381,304,327 views &nbsp Oct 25, 2009</span>
+            </div>
+
+            <div class="flex">
+              <div class="icon">
+                <i class="fa fa-thumbs-up"></i>
+                <label>16M</label>
+              </div>
+              <div class="icon">
+                <i class="fa fa-thumbs-down"></i>
+                <label>DISLIKE</label>
+              </div>
+              <div class="icon">
+                <i class="fa fa-share"></i>
+                <label>SHARE</label>
+              </div>
+              <div class="icon">
+                <i class="fa fa-scissors"></i>
+                <label>CLIP</label>
+              </div>
+              <div class="icon">
+                <i class="fa fa-bookmark"></i>
+                <label>SAVE</label>
+              </div>
+              <div class="icon">
+                <i class="fa fa-ellipsis"></i>
+              </div>
+            </div>
+          </div>
+          <!--        total viwer            -->
+
+
+          <!--        video details            -->
+          <div class="details flex border_bottom">
+            <div class="img">
+              <img src="images/logo.png" alt="">
+            </div>
+            <div class="heading">
+              <h4><br>Rick Astley <i class="fa fa-circle-check"></i> </h4>
+              <span>3.65M Subscribers</span>
+              <h4><br></h5>
+                <h4>The official video for “Never Gonna Give You Up” by Rick Astley<br><br></h5>
+                  <h5>“Never Gonna Give You Up” was a global smash on its release in July 1987, topping the charts in 25
+                    countries including Rick’s native UK and the US Billboard Hot 100. It also won the Brit Award for
+                    Best single in 1988. Stock Aitken and Waterman wrote and produced the track which was the lead-off
+                    single and lead track from Rick’s debut LP “Whenever You Need Somebody”. The album was itself a UK
+                    number one and would go on to sell over 15 million copies worldwide.
+
+                    The legendary video was directed by Simon West – who later went on to make Hollywood blockbusters
+                    such as Con Air, Lara Croft – Tomb Raider and The Expendables 2. The video passed the 1bn YouTube
+                    views milestone on 28 July 2021.
+                  </h5>
+                  <span>Show More</span>
+            </div>
+          </div>
+          <!--        video details            -->
+
+
+
+          <!--        video comment            -->
+          <div class="comment">
+            <div class="comment-heading flex">
+              <h4>2,253,288 Comments</h4>
+              <h4> <i class="fa fa-list-ul"></i> <label>SORT BY</label> </h4>
+            </div>
+          </div>
+
+          <!--        video comment  by self           -->
+          <div class="details comment_self flex">
+            <div class="img">
+              <img src="images/ashwinprofile.png" alt="">
+            </div>
+            <div class="heading">
+              <input type="text" placeholder="Add a comment....">
+            </div>
+          </div>
+          <!--        video comment  by other           -->
+
+          <div class="details_Comment">
+            <div class="details flex">
+              <div class="img">
+                <img
+                  src="https://img.icons8.com/external-victoruler-flat-victoruler/64/000000/external-boy-people-victoruler-flat-victoruler-5.png" />
+              </div>
+              <div class="heading">
+                <h4>Mark ulysses Tabasan <span>3 years ago</span> </h4>
+                <p> Everybody: Dosen't rick roll me<br>
+                  Me: Fine, I'll do it myself.</p>
+                <div class="comment-like flex">
+                  <div class="icon">
+                    <i class="fa fa-thumbs-up"></i>
+                    <label>995</label>
+                  </div>
+                  <div class="icon">
+                    <i class="fa fa-thumbs-down"></i>
+                    <label>DISLIKE</label>
+                  </div>
+                  <div class="icon">
+                    <label>REPLY</label>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!--        video comment  by other           -->
+          <div class="replay">
+            <label class="tags"> <i class="fa fa-caret-up"></i> Hide Reply </label>
+            <div class="replay-details flex">
+              <div class="img">
+                <img src="images/logo.png" alt="">
+              </div>
+              <div class="text">
+                <h4> <label>Rick Astley</label> <span>3 years ago</span> </h4>
+                <p>Get some friends dude :)</p>
+              </div>
+            </div>
+          </div>
+
+
+          <!--        no replay           -->
+          <div class="details_Comment no-replay">
+            <div class="details flex">
+              <div class="img">
+                <h1>M</h1>
+              </div>
+              <div class="heading">
+                <h4>Michael Mcdonagh <span>2 days ago</span> </h4>
+                <p>I can’t be the only one who loves this song so much that I keep Rick rolling my self 😂❤</p>
+                <div class="comment-like flex">
+                  <div class="icon">
+                    <i class="fa fa-thumbs-up"></i>
+                    <label>6</label>
+                  </div>
+                  <div class="icon">
+                    <i class="fa fa-thumbs-down"></i>
+                    <label>DISLIKE</label>
+                  </div>
+                  <div class="icon">
+                    <label>REPLY</label>
+                  </div>
+                </div>
+                <label class="tags"> <i class="fa fa-caret-down"> </i> View Replay From Rick Astley </label>
+              </div>
+            </div>
+          </div>
+          <div class="details_Comment no-replay">
+            <div class="details flex">
+              <div class="img background1">
+                <h1>E</h1>
+              </div>
+              <div class="heading">
+                <h4>Top G Enzo <span>2 years ago</span> </h4>
+                <p> This masterpiece will never fade away</p>
+                <div class="comment-like flex">
+                  <div class="icon">
+                    <i class="fa fa-thumbs-up"></i>
+                    <label>75</label>
+                  </div>
+                  <div class="icon">
+                    <i class="fa fa-thumbs-down"></i>
+                    <label>DISLIKE</label>
+                  </div>
+                  <div class="icon">
+                    <label>REPLY</label>
+                  </div>
+                </div>
+                <label class="tags"> <i class="fa fa-caret-down"> </i> View Replay From Rick Astley </label>
+              </div>
+            </div>
+          </div>
+          <div class="details_Comment no-replay">
+            <div class="details flex">
+              <div class="img background2">
+                <h1>S</h1>
+              </div>
+              <div class="heading">
+                <h4>WATSUPBEAST <span>1 year ago</span> </h4>
+                <p> Bro I came here from a link😂😂😂</p>
+                <div class="comment-like flex">
+                  <div class="icon">
+                    <i class="fa fa-thumbs-up"></i>
+                    <label>5</label>
+                  </div>
+                  <div class="icon">
+                    <i class="fa fa-thumbs-down"></i>
+                    <label>DISLIKE</label>
+                  </div>
+                  <div class="icon">
+                    <label>REPLY</label>
+                  </div>
+                </div>
+                <label class="tags"> <i class="fa fa-caret-down"> </i> View Replay From Rick Astley </label>
+              </div>
+            </div>
+          </div>
+          <div class="details_Comment no-replay">
+            <div class="details flex">
+              <div class="img background3">
+                <h1>A</h1>
+              </div>
+              <div class="heading">
+                <h4>Alledoesthings <span>2 months ago</span> </h4>
+                <p> 
+                  I'll let my future kids hear this. I was barely 2 when it was posted on youtube, but nostalgia will be still a thing, as long as you know what old times you'll be missing. I want them to know what's worth loving in life</p>
+                <div class="comment-like flex">
+                  <div class="icon">
+                    <i class="fa fa-thumbs-up"></i>
+                    <label>5</label>
+                  </div>
+                  <div class="icon">
+                    <i class="fa fa-thumbs-down"></i>
+                    <label>DISLIKE</label>
+                  </div>
+                  <div class="icon">
+                    <label>REPLY</label>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="replay">
+            <label class="tags"> <i class="fa fa-caret-up"></i> Hide Reply </label>
+            <div class="replay-details flex">
+              <div class="img">
+                <img src="images/logo.png" alt="">
+              </div>
+              <div class="text">
+                <h4> <label>Rick Astley</label> <span>2 months ago</span> </h4>
+                <p>I'm sure that they are never gonna give it up too😂😂😂</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="right">
+        <div class="right_content">
+          <button class="chat">View Similar Videos</button>
+
+          <div class="tags">
+            <label class="tags-bg">All</label>
+            <label class="tags-bg">From Your Search</label>
+            <label class="tags-bg">From Rick Astley</label>
+            <label class="tags-bg">Similar Artists</label>
+          </div>
+
+          <div class="video_items vide_sidebar flex">
+            <a href="#">
+              <img src="images/video_images/vidtbn1.png" alt="">
+            </a>
+            <div class="details">
+              <p>One Direction - Night Changes</p>
+              <span>One Direction <i class="fa fa-cricle-check"> </i> </span>
+              <span>649 M views  8 years ago</span>
+            </div>
+          </div>
+          <div class="video_items vide_sidebar flex">
+            <a href="#">
+              <img src="images/video_images/vidtb2.png" alt="">
+            </a>
+            <div class="details">
+              <p>The Weeknd - Save Your Tears (Official Music Video)</p>
+              <span>The Weeknd <i class="fa fa-cricle-check"> </i> </span>
+              <span>1.1 B views  2 years ago</span>
+            </div>
+          </div>
+          <div class="video_items vide_sidebar flex">
+            <a href="#">
+              <img src="images/video_images/vidtbn3.png" alt="">
+            </a>
+            <div class="details">
+              <p>The Weeknd - Starboy ft. Daft Punk (Official Video)</p>
+              <span>The Weeknd<i class="fa fa-cricle-check"> </i> </span>
+              <span>2.2 B views  6 years ago</span>
+            </div>
+          </div>
+          <div class="video_items vide_sidebar flex">
+            <a href="#">
+              <img src="images/video_images/vidtbn4.png" alt="">
+            </a>
+            <div class="details">
+              <p>Glass Animals - Heat Waves (Official Video)</p>
+              <span>Glass Animals <i class="fa fa-cricle-check"> </i> </span>
+              <span>527 M views  2 years ago</span>
+            </div>
+          </div>
+          <div class="video_items vide_sidebar flex">
+            <a href="#">
+              <img src="images/video_images/vidtbn5.png" alt="">
+            </a>
+            <div class="details">
+              <p>Harry Styles - As It Was (Official Video)</p>
+              <span>Harry Styles <i class="fa fa-cricle-check"> </i> </span>
+              <span>490 M  1 year ago</span>
+            </div>
+          </div>
+          <div class="video_items vide_sidebar flex">
+            <a href="#">
+              <img src="images/video_images/vidtbn6.png" alt="">
+            </a>
+            <div class="details">
+              <p>Green Day - 21 Guns [Official Music Video]</p>
+              <span>Green Day <i class="fa fa-cricle-check"> </i> </span>
+              <span>483 M  13 years ago</span>
+            </div>
+          </div>
+          <div class="video_items vide_sidebar flex">
+            <a href="#">
+              <img src="images/video_images/vidtbn7.png" alt="">
+            </a>
+            <div class="details">
+              <p>Eminem - Mockingbird [Official Music Video]</p>
+              <span>EminemMusic <i class="fa fa-cricle-check"> </i> </span>
+              <span>779 M  13 years ago</span>
+            </div>
+          </div>
+          <div class="video_items vide_sidebar flex">
+            <a href="#">
+              <img src="images/video_images/vidtbn8.png" alt="">
+            </a>
+            <div class="details">
+              <p>Coldplay - Viva La Vida (Official Video)</p>
+              <span>Coldplay<i class="fa fa-cricle-check"> </i> </span>
+              <span>808 M  14 years ago</span>
+            </div>
+          </div>
+          <div class="video_items vide_sidebar flex">
+      
+            <a href="#">
+              <img src="images/video_images/vidtbn9.png" alt="">
+            </a>
+            <div class="details">
+              <p>My Chemical Romance - Welcome To The Black Parade [Official Music Video] [HD]</p>
+              <span>My Chemical Romance <i class="fa fa-cricle-check"> </i> </span>
+              <span>290 M  13 years ago</span>
+            </div>
+          </div>
+          <div class="video_items vide_sidebar flex">
+            <a href="#">
+              <img src="images/video_images/vidtbn10.png" alt="">
+            </a>
+            <div class="details">
+              <p>Owl City - Fireflies (Official Music Video)</p>
+              <span>Owl City<i class="fa fa-cricle-check"> </i> </span>
+              <span>489 M  13 years ago</span>
+            </div>
+          </div>
+          <div class="video_items vide_sidebar flex">
+            <a href="#">
+              <img src="images/video_images/vidtbn11.png" alt="">
+            </a>
+            <div class="details">
+              <p>Bruno Mars - Just The Way You Are (Official Music Video)</p>
+              <span>Bruno Mars <i class="fa fa-cricle-check"> </i> </span>
+              <span>1.8 B  12 years ago</span>
+            </div>
+          </div>
+          <div class="video_items vide_sidebar flex">
+            <a href="#">
+              <img src="images/video_images/vidtbn12.png" alt="">
+            </a>
+            <div class="details">
+              <p>Maroon 5 - Payphone ft. Wiz Khalifa (Explicit) (Official Music Video)</p>
+              <span>Maroon 5<i class="fa fa-cricle-check"> </i> </span>
+              <span>830 M  10 years ago</span>
+            </div>
+          </div>
+          <div class="video_items vide_sidebar flex">
+            <a href="#">
+              <img src="images/video_images/vidtbn13.png" alt="">
+            </a>
+            <div class="details">
+              <p>The Script - Hall of Fame (Official Video) ft. will.i.am</p>
+              <span>The Script <i class="fa fa-cricle-check"> </i> </span>
+              <span>544 M  10 years ago</span>
+            </div>
+          </div>
+          <div class="video_items vide_sidebar flex">
+            <a href="#">
+              <img src="images/video_images/vidtbn14.png" alt="">
+            </a>
+            <div class="details">
+              <p>Guns N' Roses - Sweet Child O' Mine (Official Music Video)</p>
+              <span>Guns N' Roses <i class="fa fa-cricle-check"> </i> </span>
+              <span>1.5 B  13 years ago</span>
+            </div>
+          </div>
+          <div class="video_items vide_sidebar flex">
+            <a href="#">
+              <img src="images/video_images/vidtbn15.png" alt="">
+            </a>
+            <div class="details">
+              <p>The Chainsmokers & Coldplay - Something Just Like This (Lyric)</p>
+              <span>The Chainsmokers<i class="fa fa-cricle-check"> </i> </span>
+              <span>2.1 B  6 years ago</span>
+            </div>
+          </div>
+          <div class="video_items vide_sidebar flex">
+            <a href="#">
+              <img src="images/video_images/vidtbn16.png" alt="">
+            </a>
+            <div class="details">
+              <p>Numb (Official Music Video) [4K UPGRADE] – Linkin Park</p>
+              <span>Linkin Park <i class="fa fa-cricle-check"> </i> </span>
+              <span>1.9 B  16 years ago</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+
+
+  <script src="js/main.js" charset="utf-8"></script>
+</body>
+
+</html>
